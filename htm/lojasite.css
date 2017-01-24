@@ -2,6 +2,8 @@
  
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Audiowide&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Montserrat&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Lato|Montserrat&subset=latin-ext');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext);
 p{font-size:12px;font-family:'Open Sans',verdana,arial;font-weight:400;}
 a{text-decoration:none}
