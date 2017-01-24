@@ -256,10 +256,6 @@
     color: white;
   } 
 
-  .slideanim {
-    visibility:hidden;
-  }
-
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
