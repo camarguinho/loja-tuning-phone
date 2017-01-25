@@ -221,6 +221,10 @@
     color: black;
   }
 
+  .specifications h2 {
+    font-size: 1.25em;
+  }
+
   .specifications-obs {
     font-family: Montserrat, Lato, sans-serif;
     text-align: left;
