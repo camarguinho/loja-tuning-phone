@@ -181,12 +181,9 @@
       background: linear-gradient(-45deg, white, white, silver, grey); /* Standard syntax (must be last) */
   }
 
-  #myNavbar ul li a{
-    text-transform: uppercase;
-  }
-
   .navbar li a, .navbar .navbar-brand {
       color: black !important;
+      text-transform: uppercase;
   }
 
   .navbar-nav li a:hover, .navbar-nav li.active a {
