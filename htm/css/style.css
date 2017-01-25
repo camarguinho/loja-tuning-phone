@@ -173,6 +173,14 @@
       background: linear-gradient(-90deg, white, grey); /* Standard syntax (must be last) */
   } 
 
+  .linear-grad-2 {
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(-90deg, white, grey, white); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(-90deg, white, grey, white); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(-90deg, white, grey, white); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(-90deg, white, grey, white); /* Standard syntax (must be last) */
+  } 
+
   .linear-grad-products {
       background: red; /* For browsers that do not support gradients */
       background: -webkit-linear-gradient(-45deg, white, white, silver, grey); /* For Safari 5.1 to 6.0 */
@@ -196,7 +204,7 @@
       color: #F9E32D !important;
   }
 
-  .myNavbar2 {
+  .myNavbar2 ul li a{
     text-transform: uppercase;
     color: black;
   }
