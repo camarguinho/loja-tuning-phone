@@ -196,6 +196,11 @@
       color: #F9E32D !important;
   }
 
+  #myNavbar2 {
+    text-transform: uppercase;
+    color: black;
+  }
+
   .item-custom {
     text-transform: uppercase;
   }
