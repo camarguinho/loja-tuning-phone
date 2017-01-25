@@ -274,7 +274,7 @@
       visibility: visible;
   }
 
-  #menu .navbar-nav > ul > li > a  {
+  .menu ul > li > a  {
     font-size: 0.75em;
   }
 
