@@ -196,7 +196,7 @@
       color: #F9E32D !important;
   }
 
-  .navbar-default .navbar-nav>li>a {
+  .item-custom {
     text-transform: uppercase;
   }
 
