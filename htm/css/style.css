@@ -222,6 +222,10 @@
     line-height: 1.5em;
   }
 
+  .specifications p{
+    letter-spacing: 0.25em;
+  }
+
   .specifications-obs {
     font-family: Lato, sans-serif;
     text-align: left;
