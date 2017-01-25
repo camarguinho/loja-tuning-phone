@@ -201,6 +201,11 @@
     color: black;
   }
 
+  .myNavbar2 ul li a:visited{
+    text-transform: uppercase;
+    color: black;
+  }
+
   .item-custom {
     text-transform: uppercase;
   }
