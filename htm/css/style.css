@@ -274,7 +274,8 @@
       visibility: visible;
   }
 
-  .menu ul > li > a  {
+  .item-custom-menu > a  {
+    text-transform: uppercase;
     font-size: 0.75em;
   }
 
