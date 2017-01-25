@@ -274,8 +274,8 @@
       visibility: visible;
   }
 
-  #menu ul li a {
-    font-size: 1em;
+  #menu .navbar-nav > ul > li > a  {
+    font-size: 0.75em;
   }
 
   @keyframes slide {
