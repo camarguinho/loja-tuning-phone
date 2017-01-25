@@ -189,11 +189,14 @@
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: white !important;
       background-color: black !important;
+      text-transform: uppercase;
+
   }
 
   .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #F9E32D !important;
+      text-transform: uppercase;
   }
 
   .contact-info {
