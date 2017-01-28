@@ -338,7 +338,7 @@
     }
   }
 
-  @media screen and (max-width: 100px) {
+  @media screen and (max-width: 1000px) {
     .nav  {float: none;}
     .navbar  {float: none;}
   }
