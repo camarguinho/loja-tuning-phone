@@ -477,7 +477,7 @@ a #HeaderCartTotalFC{color:<tag-FCCSSColor18>;position:relative;top:3px;font-siz
 #idMenuCat1 .PathCat1{margin-left:5px !important;}
 .left-bar h2, .EstListCat li{padding:7px 0 !important;border-bottom:1px solid <tag-FCCSSColor10>;}
 .EstListCat li:last-child{border-bottom:0;}
-.EstListCat li a{font-size:1.15em;color:black;font-family: 'Audiowide', 'Open Sans';margin-top: 0.2em;}
+.EstListCat li a{color:black;font-family: 'Audiowide', 'Open Sans';margin-top: 0.2em;}
 .EstListCat .ImgClosed{background:url("<PathTo file="/icons/icopackagev1/svg/essential-light-02-chevron-right.svg">") no-repeat left !important;margin:0 5px 0 0}
 .EstListCat .ImgOpened{background:url("<PathTo file="/icons/icopackagev1/svg/essential-light-04-chevron-down.svg">") no-repeat left !important;margin:0 5px 0 0}
 .PathCat1{padding-left:0;}
