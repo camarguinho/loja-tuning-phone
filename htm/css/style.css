@@ -218,6 +218,10 @@
     text-decoration: none;
   }
 
+  #nav-categ .left-bar h2, .EstListCat li {
+    border-bottom: 0px;
+  } 
+
   .itens-cat-nav ul li:hover {
     background-color: none !important;
   }
