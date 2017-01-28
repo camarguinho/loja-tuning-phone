@@ -200,8 +200,22 @@
     white-space: nowrap;
     min-height: 48px;
     text-align: center;
-    background: pink;
     padding: 0.75em;
+  }
+
+  #nav-categ ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+  }
+
+  #nav-categ ul li {
+    display: inline;
+  }
+
+  #nav-categ ul li a{
+    display: inline-block;
+    text-decoration: none;
   }
 
   .itens-cat-nav ul li:hover {
