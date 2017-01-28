@@ -163,6 +163,7 @@
       letter-spacing: 0.10em;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+      float: right;
   }
 
   .linear-grad {
@@ -337,7 +338,7 @@
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
 
   }
 
