@@ -283,6 +283,10 @@
     color: black;
   }
 
+  .menu-2 {
+    white-space: nowrap;
+  }
+
   .faq {
     color: black;
   }
