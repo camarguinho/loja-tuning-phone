@@ -26,6 +26,8 @@ input[type="text"],input[type="number"]{padding:5px;background-image:none;color:
 .FCProductAvailability .titulos{font-family:'Open Sans',verdana,arial;font-weight:600;font-size:18px;}
 .FCHelp #idFCContent, .FCNews #idFCContent, .FCContact #idFCContent, .FCTrack #idFCContent, .FCNewsletter #idFCContent, .FCRateProd #idFCContent, .FCAdvancedSearch #idFCContent{margin:0 10px 0 10px;}
 
+ #idBadgeAllFC{display:none}
+
 /* Background styles */
 .FundoSiteCentro{background:#FFFFFF;}.FundoTopoExt{background:#FFFFFF;}.FundoSiteInt{background:#FFFFFF;}
 
