@@ -15,7 +15,7 @@ span .FooterNewsletterInput{height:38px;font-size:14px;border:1px solid <tag-FCC
 .FooterInputPosition{float:left;margin:0 0 0 0}
 .FooterInputBtnPosition{margin:0 0 0 0;}
 .FooterSpaceContainerFC{margin:10px 0 10px 0 !important;}
-.FooterTecFastCommerce{font-size:12px;}
+.FooterTecFastCommerce{font-size:12px;display: none}
 .FooterInfosContainer{margin:5px 0 !important;}
 .FooterInfosContainer text{font-family:'Open Sans',verdana,arial;font-weight:400;}
 .FooterInfosContainer text + text{font-family:'Open Sans',verdana,arial !important;font-weight:600;}
