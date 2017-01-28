@@ -306,6 +306,10 @@
       visibility: visible;
   }
 
+  #idBadgeAllFC {
+    display:none;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
