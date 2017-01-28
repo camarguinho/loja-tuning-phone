@@ -338,8 +338,9 @@
     }
   }
 
-  @media screen and (max-width: 850px) {
-
+  @media screen and (max-width: 100px) {
+    .nav  {float: none;}
+    .navbar  {float: none;}
   }
 
   /*rotação de imagens*/
