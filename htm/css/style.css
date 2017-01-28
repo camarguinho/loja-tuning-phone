@@ -230,16 +230,17 @@
     color: black;
   }
 
-  .item-custom ul li{
-    text-transform: uppercase;
+  .item-custom ul li a {
     font-size: 0.85em;
     letter-spacing: 0.15em;
   }
 
+  .item-custom ul li{
+    text-transform: uppercase;
+  }
+
   .item-custom li{
     text-transform: uppercase;
-    font-size: 0.85em;
-    letter-spacing: 0.15em;
   }
 
   .contact-info {
