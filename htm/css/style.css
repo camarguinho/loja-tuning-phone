@@ -343,6 +343,7 @@
   }
 
   @media screen and (max-width: 950px) {
+    .nav ul li {float: none;}
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
