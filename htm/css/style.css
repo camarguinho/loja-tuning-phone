@@ -316,7 +316,12 @@
   #idBadgeAllFC {
     display:none;
   }
-  
+
+  .menus {
+    min-height: 45px;
+    max-height: 45px;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
