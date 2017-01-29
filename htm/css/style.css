@@ -316,15 +316,6 @@
   #idBadgeAllFC {
     display:none;
   }
-
-  .cart {
-    position: fixed;
-    top: 100px;
-    right: 25px;
-    opacity: 1;
-    cursor: pointer;
-    z-index: 1;
-  }
   
   @keyframes slide {
     0% {
