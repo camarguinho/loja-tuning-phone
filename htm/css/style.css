@@ -230,11 +230,6 @@
     color: black;
   }
 
-  .login ul li{
-    font-size: 0.75em;
-    text-decoration: none;
-  }
-
   .item-custom ul li a {
     font-size: 0.7em;
     letter-spacing: 0.15em;
