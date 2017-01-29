@@ -217,7 +217,7 @@ a #HeaderCartTotalFC{color:<tag-FCCSSColor18>;position:relative;top:3px;font-siz
 .FCToolBarContainer{width:1020px;height:60px;margin:0 auto;}
 .FCToolBarLogo{width:177px;height:52px;float:left;background:transparent;margin:3px 0 0 0;text-align:center;line-height:52px;}
 .FCToolBarLogo img{max-width:80%;max-height:52px;vertical-align:middle;}
-.FCToolBarForm{float:left;margin:0;width:39%;position:relative;}
+.FCToolBarForm{margin-left:25em;width:39%;position:relative;}
 .FCToolBarForm input[type="text"]{padding-top:4px;padding-bottom:3px;width:400px;height:37px;margin:10px 0 0 0;float:left;opacity:0.5;padding:0 0 0 10px !important;}
 .FCToolBarButton{border:0;width:51px;height:37px;cursor:pointer;float:left;margin:10px 0 0 0;padding:3px 0 0 0;}
 .FCToolBarChatTel{text-align:center;width:133px;height:40px;margin:10px 15px 0 5px;display:block;float:left;}
