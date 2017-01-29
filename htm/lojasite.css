@@ -612,7 +612,7 @@ table[name="TabEnvioInt"] td{vertical-align:middle;padding:5px 5px;}
 .HeaderContainerSocialLoginUL{text-align:left;}
 .HeaderContainerSocialLoginUL li{display:inline;}
 .HeaderContainerSocialLoginUL{display:flex;align-items:center;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;display:-webkit-box;display:-ms-flexbox;display:flex;}
-.loginInfo{text-decoration: none;font-size: 0.75em;font-family: 'Audiowide', 'Open Sans', verdana, arial; display:flex;align-items:center;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:18px;color:black;}
+.loginInfo{text-decoration: none;font-size: 0.85em;font-family: 'Audiowide', 'Open Sans', verdana, arial; display:flex;align-items:center;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:2.2em;color:black;}
 
 #UserImage{display:none;}
 /* Don't Go Popup */
