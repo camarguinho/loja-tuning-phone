@@ -322,6 +322,15 @@
     max-height: 45px;
   }
 
+  .qrcode {
+    position: fixed;
+    top: 100px;
+    right: 25px;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 1;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
