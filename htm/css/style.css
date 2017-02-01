@@ -232,12 +232,6 @@
     border-color: black;
   }
 
-  .panel-primary>.panel-heading {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
-  }
-  
   a:visited {
     color: black;
   }
