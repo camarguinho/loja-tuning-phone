@@ -226,6 +226,12 @@
     background-color: none !important;
   }
 
+  .panel-primary>.panel-heading {
+    color: #fff;
+    background-color: silver;
+    border-color: black;
+  }
+
   .menu-head {
     color: #fff;
     background-color: silver;
