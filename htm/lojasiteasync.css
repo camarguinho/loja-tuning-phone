@@ -32,7 +32,7 @@ span .FooterNewsletterInput{height:38px;font-size:14px;border:1px solid <tag-FCC
 .FooterTitleTxt{display:block;font-family:'Open Sans',verdana,arial !important;font-weight:600;margin:0 auto 8px;text-align:left;color:<tag-FCCSSSecondMainColor>}
 .FooterULPaymentFC li{display:inline;}
 .FooterULSecurityFC li{display:inline;}
-
+.panel-primary>.panel-heading {color: #fff; background-color: blue; border-color: black;}
 /* History */
 #idPageHistory{width:100%;margin-top:30px;color:<tag-FCCSSMainColor>;}
 #idDivPageHistory{max-width:1200px;margin:0 auto;}

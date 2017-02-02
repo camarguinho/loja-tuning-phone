@@ -226,11 +226,6 @@
     background-color: none !important;
   }
 
-  .panel>.panel-primary>.panel-heading {
-    background-color: blue;
-    border-color: black;
-  }
-
   a:visited {
     color: black;
   }
