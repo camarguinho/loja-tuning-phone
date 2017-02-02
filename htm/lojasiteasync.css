@@ -33,6 +33,7 @@ span .FooterNewsletterInput{height:38px;font-size:14px;border:1px solid <tag-FCC
 .FooterULPaymentFC li{display:inline;}
 .FooterULSecurityFC li{display:inline;}
 .panel-primary>.panel-heading {color: #fff; background-color: blue; border-color: black;}
+.panel-primary>.panel-heading ul li b{color: white;}
 /* History */
 #idPageHistory{width:100%;margin-top:30px;color:<tag-FCCSSMainColor>;}
 #idDivPageHistory{max-width:1200px;margin:0 auto;}
