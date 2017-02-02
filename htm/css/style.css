@@ -226,7 +226,7 @@
     background-color: none !important;
   }
 
-  .panel-primary>.panel-heading {
+  .panel>.panel-primary>.panel-heading {
     background-color: blue;
     border-color: black;
   }
