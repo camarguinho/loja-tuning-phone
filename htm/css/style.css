@@ -230,6 +230,17 @@
     color: black;
   }
 
+  .search {
+    vertical-align: 100%; 
+    width: 100%; 
+    position: relative; 
+    align-items: center; 
+    justify-content: center; 
+    display: flex; 
+    min-width: 45px;
+  }
+
+
   .item-custom ul li a {
     font-size: 0.55em;
     letter-spacing: 0.15em;
