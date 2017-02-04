@@ -32,7 +32,7 @@
 .FCSelectedGrid span{background:#dddddd;}
 .FCStepGrid{min-height:40px;display:block;text-align:left;border:0;padding:0;}
 .FCStepGridNumber{width:25px;height:25px;line-height:15px;display:inline-block;float:left;padding:5px 0px 0px 0px;border-radius:50%;background:#4494f9;color:#ffffff;text-align:center;}
-.FCOptionSelected{display:inline-block;font-weight:bold;padding:6px 0;}
+.FCOptionSelected{font-weight:bold;padding:6px 0;}
 .FCStepGridTitle{display:inline-block;padding:6px 0;float:left;margin:0 5px;}
 .FCStepGridTitle.FCTitQtyInc{margin-left:5px;}
 
