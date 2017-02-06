@@ -26,28 +26,12 @@ input[type="text"],input[type="number"]{padding:5px;background-image:none;color:
 .FCProductAvailability .titulos{font-family:'Open Sans',verdana,arial;font-weight:600;font-size:18px;}
 .FCHelp #idFCContent, .FCNews #idFCContent, .FCContact #idFCContent, .FCTrack #idFCContent, .FCNewsletter #idFCContent, .FCRateProd #idFCContent, .FCAdvancedSearch #idFCContent{margin:0 10px 0 10px;}
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
+ul.topnav{list-style-type:none;margin:10px;padding:0;overflow:hidden;}
 ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
+ul.topnav li a{display:block;text-align:center;padding:14px 16px;text-decoration:none; color:black;}
+ul.topnav li a:hover{color: white !important;background-color: black !important;}
 ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
+@media screen and (max-width:600px){ul.topnav li,ul.topnav li.right{float:none;}}
 
  #idBadgeAllFC{display:none}
 
