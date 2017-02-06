@@ -45,6 +45,24 @@
     width: 346px;
   }
 
+  .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu ul li {
+    float: center;
+  }
+
+  .menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
   .logo {
     position: absolute;
     top: 25px;
