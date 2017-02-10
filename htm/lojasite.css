@@ -40,7 +40,7 @@ ul.topnav li.right {float: right;}
 
 /* Style Forms Buttons, Inputs and Text */
 .InputText{color:#545B8F;}
-
+#topcontrol{display: none;}
 /* Scroll To The Top */
 /*.ScrollToTheTopFC{font-size:0.75em;font-family: 'Audiowide', 'Open Sans', verdana, arial;}*/
 
