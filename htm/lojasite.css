@@ -42,7 +42,7 @@ ul.topnav li.right {float: right;}
 .InputText{color:#545B8F;}
 
 /* Scroll To The Top */
-.ScrollToTheTopFC{font-size:0.75em;font-family: 'Audiowide', 'Open Sans', verdana, arial;}
+/*.ScrollToTheTopFC{font-size:0.75em;font-family: 'Audiowide', 'Open Sans', verdana, arial;}*/
 
 /* Remove LeftBar of certain pages */
 .ProductDet .left-bar, .FCFreight .left-bar, .FCCheckoutSteps .left-bar, .FCPayment .left-bar, .FCContact .left-bar, .ProductDet #idDivPath, .ProductDet #idDivSearch, .ProductDet .Titulos,.ProductList .Titulos, .FCCart .left-bar,.FCRegister .left-bar, .FCNews .left-bar, .FCHelp .left-bar, .FCTrack .left-bar, .FCNewsletter .left-bar, .FCRecommend .left-bar, .FCAdvancedSearch .left-bar, .FCRateProd .left-bar{display:none !important;}
