@@ -192,6 +192,11 @@
       color: black !important;
   }
 
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: white !important;
+      background-color: black !important;
+  }
+
   .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #F9E32D !important;
