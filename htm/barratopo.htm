@@ -28,7 +28,6 @@ IDLojaNum='<IDLojaNum>';
 <script src='<PathTo file="htm/js/ScrollToTheTop.js">'></script>
 <script src='<PathTo file="htm/js/TinyNav.js">'></script>
 <script>iItensCesta=<QtdCesta>;</script>
-<script>$("nav navbar-nav .li").removeClass("active");</script>
 
 
 <!--[if IE]><style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style><![endif]-->
@@ -41,6 +40,9 @@ IDLojaNum='<IDLojaNum>';
 <script src='<PathTo file="htm/js/scrolltothetop.js">'></script>
 <script src='<PathTo file="htm/js/tinynav.js">'></script>
 <script>iItensCesta=<QtdCesta>;</script>
+<script>$("li").click(function(){
+    alert("The paragraph was clicked.");
+});</script>
 
 <nav data-spy="scroll" data-target=".navbar" data-offset="60" class="navbar navbar-default navbar-fixed-top linear-grad menus">
   <div class="container">
