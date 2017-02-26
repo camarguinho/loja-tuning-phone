@@ -33,6 +33,8 @@ ul.topnav li a:hover{color: white !important;background-color: black !important;
 ul.topnav li.right {float: right;}
 @media screen and (max-width:600px){ul.topnav li,ul.topnav li.right{float:none;}}
 
+.h1-custom{font-size: 3em;}
+
  #idBadgeAllFC{display:none}
 
 /* Background styles */
