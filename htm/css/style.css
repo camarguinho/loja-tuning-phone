@@ -148,6 +148,10 @@
       background-color: black;
   }
 
+  .h1-custom {
+    font-size: 2em;
+  }
+
   .item h4 {
       font-size: 1em;
       line-height: 1.375em;
