@@ -70,6 +70,10 @@
     font-family: Audiowide;
   }
 
+  .font-custom span{
+    font-size: 3em;
+  }
+
   .header {
     position: relative;
     width: 100%;
@@ -146,10 +150,6 @@
 
   .carousel-indicators li.active {
       background-color: black;
-  }
-
-  .h1-custom {
-    font-size: 3em;
   }
 
   .item h4 {
