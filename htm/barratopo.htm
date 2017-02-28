@@ -64,10 +64,9 @@ IDLojaNum='<IDLojaNum>';
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">MINHA CONTA</a>
           <div class="dropdown-content">
-            <a><tag-FCHeaderMenuAccount></a>
-            <a><tag-FCHeaderMenuTrack></a>
-            <a><tag-FCHeaderSocialLogin></a>
-            <a><tag-FCHeaderCart></a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
           </div>
         </li>
       </ul>
@@ -96,12 +95,34 @@ IDLojaNum='<IDLojaNum>';
         <li><a href="/buscaavancada.asp?idloja=<IDLojaNum>"><tag-FCFooterProductsMenu6></a></li>
         <li><a href="/indique.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu6></a></li>
         <li><a href="/newsletter.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu5></a></li>
+        <li><tag-FCHeaderMenuTrack></li>  
       </ul>
     </div>
   </div>
 </nav>
 
+<div style="
+position: fixed;
+top: 60px;
+right: 5px;
+opacity: 1;
+cursor: pointer;
+z-index: 1;
+opacity: 0.4;
+filter: alpha(opacity=40);
+" class="panel panel-primary"> 
+  <div class="panel-heading"> 
+    <tag-FCHeaderSocialLogin>
+  </div> 
+  <div class="panel-body"> 
+    <div>
+      <tag-FCHeaderCart>
+    </div>
+  </div>
+</div>
+
 <br/><br/><br/>
+
 
 <!-- Begin: Toolbar -->
     
