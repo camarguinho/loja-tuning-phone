@@ -78,7 +78,10 @@
       text-align: left;
   }
 
-  .dropdown-content a:hover {background-color: white}
+  .dropdown-content a:hover {
+    background-color: white;
+    text-decoration: none;
+  }
 
   .dropdown:hover .dropdown-content {
       display: block;
