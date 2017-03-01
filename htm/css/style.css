@@ -85,6 +85,7 @@
 
   .dropdown:hover .dropdown-content {
       display: block;
+      text-decoration: none;
   }
 
   .logo {
