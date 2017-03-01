@@ -56,7 +56,6 @@
 
   li a:hover, .dropdown:hover .dropbtn {
       background-color: gray;
-      text-decoration: none;
   }
 
   li.dropdown {
@@ -79,14 +78,13 @@
       text-align: left;
   }
 
-  .dropdown-content a:hover {
+  .dropdown-content a:hover, a:active, a:link, a:visited {
     background-color: white;
     text-decoration: none;
   }
 
   .dropdown:hover .dropdown-content {
       display: block;
-      text-decoration: none;
   }
 
   .logo {
