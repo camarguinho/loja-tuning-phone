@@ -70,9 +70,9 @@ IDLojaNum='<IDLojaNum>';
 
 <script>
  if(""!="<NomeCliente>")
- {document.write("<b><NomeCliente></b>")}
+ {document.write("  <span class=TextoPequeno>Olá, <b><NomeCliente></b>!<br><span class=TextoPequeno>Se não for você, <a href='cadastro.asp?IDLoja=<IDLoja>&logoff=1' target='_top' class='TextoPequeno'>clique</a>.</span>")}
  else
- {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>' target='_top'>LOGIN")}
+ {document.write("  <span class=TextoPequeno>Olá, <b>visitante</b>!<br>  <a href='cadastro.asp?IDLoja=<IDLoja>' target='_top' class='TextoPequeno'>Clique</a> para fazer o seu cadastro.")}
 </script>
 
           </div>
