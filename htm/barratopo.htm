@@ -65,8 +65,16 @@ IDLojaNum='<IDLojaNum>';
           <a href="javascript:void(0)" class="dropbtn">MINHA CONTA</a>
           <div class="dropdown-content">
             <tag-FCHeaderMenuTrack>
-            <a href="/addProduto.asp?idloja=33937">SACOLA: <ValorCesta></a>
+            <a href="/addProduto.asp?idloja=33937">SACOLA: R$ <ValorCesta></a>
             <a href="/cadastro.asp?idloja=33937&pp=3&passo=1&sit=1">LOGIN</a>
+
+<script>
+ if(""!="<NomeCliente>")
+ {document.write("<b><NomeCliente></b>")}
+ else
+ {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>' target='_top'>LOGIN")}
+</script>
+
           </div>
         </li>
       </ul>
