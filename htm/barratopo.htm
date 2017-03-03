@@ -66,16 +66,15 @@ IDLojaNum='<IDLojaNum>';
             
             <script>
              if(""!="<NomeCliente>")
-              {document.write("<b><NomeCliente></b>!<br><a href='cadastro.asp?IDLoja=<IDLoja>&logoff=1' target='_top' class='TextoPequeno'>SAIR</a>")}
+              {document.write("<b><NomeCliente></b><a href='cadastro.asp?IDLoja=<IDLoja>&logoff=1' target='_top' class='TextoPequeno'>SAIR</a>")}
              else
-              {document.write("  <span class=TextoPequeno><br><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top' class='TextoPequeno'>LOGIN")}
+              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top' class='TextoPequeno'>LOGIN")}
             </script>
 
           </a>
           <div class="dropdown-content">
             <tag-FCHeaderMenuTrack>
             <a href="/addProduto.asp?idloja=33937">SACOLA: R$ <ValorCesta></a>
-
           </div>
         </li>
       </ul>
