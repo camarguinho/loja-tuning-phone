@@ -62,19 +62,19 @@ IDLojaNum='<IDLojaNum>';
         <li><a href="https://www.tuning-phone.com.br/c/fones-78252810">Fones</a></li>
         <li><a href="https://www.tuning-phone.com.br/c/peliculas-56515139">Pel&iacute;culas</a></li>
         <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">
-            
             <script>
              if(""!="<NomeCliente>")
-              {document.write("<b><NomeCliente></b><a href='cadastro.asp?IDLoja=<IDLoja>&logoff=1' target='_top' class='TextoPequeno'>SAIR</a>")}
+              {document.write("<NomeCliente><a class='dropbtn' href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>SAIR</a>")}
              else
-              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top' class='TextoPequeno'>LOGIN")}
+              {document.write("<a class='dropbtn' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>LOGIN")}
             </script>
-
-          </a>
           <div class="dropdown-content">
             <tag-FCHeaderMenuTrack>
             <a href="/addProduto.asp?idloja=33937">SACOLA: R$ <ValorCesta></a>
+            <script>
+             if(""!="<NomeCliente>")
+              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>SAIR</a>")}
+            </script>
           </div>
         </li>
       </ul>
