@@ -306,7 +306,7 @@
   .info {
     font-family: Montserrat, Lato, sans-serif;
     font-size: 0.75em;
-    hyphens: none | manual | auto;
+    hyphens: none;
   }
 
   .info h4{
