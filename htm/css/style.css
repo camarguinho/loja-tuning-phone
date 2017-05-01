@@ -5,7 +5,10 @@
       font-family: Audiowide, Montserrat, Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
-      -webkit-hyphens: none
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
   }
 
   a {
