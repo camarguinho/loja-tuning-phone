@@ -430,3 +430,7 @@
       -o-transform:translatZ(0) scale(1.10); /* Opera */
       transform:translatZ(0) scale(1.10);
   } 
+
+.contatos-info a:hover {
+  text-decoration: none;
+}
