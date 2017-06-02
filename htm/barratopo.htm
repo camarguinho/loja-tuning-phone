@@ -59,7 +59,7 @@ IDLojaNum='<IDLojaNum>';
             <a href="/indique.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Indique a loja</a>
             <a href="/newsletter.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Newsletter</a>
             <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Promo&ccedil;&otilde;es</a>
-            <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true"> Busca detalhada</span></a>
+            <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busca detalhada</a>
           </div>
         </li>
 
@@ -70,25 +70,25 @@ IDLojaNum='<IDLojaNum>';
            else
             {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
           </script>
-          <ul class="dropdown-menu">
+          <div class="dropdown-menu linear-grad">
             <script>
              if(""=="<NomeCliente>")
-              {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a></li>")}
+              {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
             </script>
 
-            <li><a href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Meus Dados</a></li>
+            <a href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Meus Dados</a>
 
-            <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1
-            "><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Meus Pedidos</a></li>
+            <a href="/account.asp?idloja=<IDLojaNum>&orders=1
+            "><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Meus Pedidos</a>
 
-            <li><a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Sacola: R$ <ValorCesta></a></li>
+            <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Sacola: R$ <ValorCesta></a>
 
-            <li><a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a></li>
+            <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a>
             <script>
              if(""!="<NomeCliente>")
-              {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a></li>")}
+              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a>")}
             </script>
-          </ul>
+          </div>
         </li>
       </ul>
     </div>
