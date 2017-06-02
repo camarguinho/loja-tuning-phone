@@ -66,11 +66,11 @@ IDLojaNum='<IDLojaNum>';
         <li class="dropdown">
           <script>
            if(""!="<NomeCliente>")
-            {document.write("<a class='dropdown-toggle' data-toggle='dropdown'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
+            {document.write("<a class='dropbtn'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
            else
-            {document.write("<a class='dropdown-toggle' data-toggle='dropdown' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
+            {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
           </script>
-          <ul class="dropdown-menu" style="font-size: 0.75em;">
+          <ul class="dropdown-menu>
             <script>
              if(""=="<NomeCliente>")
               {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span></a></li>")}
