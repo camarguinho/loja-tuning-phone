@@ -42,7 +42,7 @@ IDLojaNum='<IDLojaNum>';
         <span class="icon-bar"></span>
       </button>
       <a href="https://www.tuning-phone.com.br/" id="logo">
-        <img width="200px" height="38px" class="img-rounded logo" src="https://www.rumo.com.br/lojas/00033937/images/LogoTopo.png" alt="logo">
+        <img width="200px" height="38px" class="img-rounded logo" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/LogoTopo.png" alt="logo">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -55,32 +55,40 @@ IDLojaNum='<IDLojaNum>';
         <li class="dropdown">
           <a class='dropbtn'>OP&Ccedil;&Otilde;ES</a>
           <div class="dropdown-content linear-grad">
-            <tag-FCFooterProductsMenu4>
-            <a href="/indique.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu6></a>
-            <a href="/newsletter.asp?idloja=<IDLojaNum>"><tag-FCFooterAccountMenu5></a>
-            <tag-FCFooterProductsMenu3>
-            <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><tag-FCFooterProductsMenu6></a>
+            <a href="/prod,idloja,<IDLojaNum>,lancamento,1,novidades.htm">Lançamentos</a>
+            <a href="/indique.asp?idloja=<IDLojaNum>">Indique a loja <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></a>
+            <a href="/newsletter.asp?idloja=<IDLojaNum>">Newsletter <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span></a>
+            <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm">Promoções <span class="glyphicon glyphicon-tags" aria-hidden="true"></span></a>
+            <a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca detalhada <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
           </div>
         </li>
 
         <li class="dropdown">
+          <script>
+           if(""!="<NomeCliente>")
+            {document.write("<a class='dropdown-toggle' data-toggle='dropdown'>Olá, <NomeCliente> <span class='caret'></span></a>")}
+           else
+            {document.write("<a class='dropdown-toggle' data-toggle='dropdown' target='_top'>Olá, visitante! <span class='caret'></span></a>")}
+          </script>
+          <ul class="dropdown-menu" style="font-size: 0.75em;">
+            <script>
+             if(""=="<NomeCliente>")
+              {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span></a></li>")}
+            </script>
+
+            <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+
+            <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1
+            ">Meus Pedidos <span class="glyphicon glyphicon-gift" aria-hidden="true"></span></a></li>
+
+            <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta> <span class="glyphicon glyphicon-usd" aria-hidden="true"></span></a></li>
+
+            <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Itens: <QtdCesta> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
             <script>
              if(""!="<NomeCliente>")
-              {document.write("<a class='dropbtn'><NomeCliente></a>")}
-             else
-              {document.write("<a class='dropbtn' href='cadastro.asp?IDLoja=<IDLoja>&pp=3' target='_top'>LOGIN</a>")}
+              {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair <span class='glyphicon glyphicon-log-out' aria-hidden='true'></span></a></li>")}
             </script>
-          <div class="dropdown-content linear-grad">
-            <a href="/cadastro.asp?idloja=<IDLojaNum>">Login ou Cadastro</a>
-            <a href="/account.asp?idloja=<IDLojaNum>">Meus Dados</a>
-            <tag-FCHeaderMenuTrack>
-            <a href="/addProduto.asp?idloja=33937">Sacola: R$ <ValorCesta></a>
-            <a href="/addProduto.asp?idloja=33937">Itens: <QtdCesta></a>
-            <script>
-             if(""!="<NomeCliente>")
-              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>SAIR</a>")}
-            </script>
-          </div>
+          </ul>
         </li>
       </ul>
     </div>
