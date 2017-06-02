@@ -56,10 +56,10 @@ IDLojaNum='<IDLojaNum>';
           <a class='dropbtn'>OP&Ccedil;&Otilde;ES <span class='caret'></span></a>
           <div class="dropdown-content linear-grad">
             <a href="/prod,idloja,<IDLojaNum>,lancamento,1,novidades.htm">Lançamentos</a>
-            <a href="/indique.asp?idloja=<IDLojaNum>">Indique a loja <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></a>
-            <a href="/newsletter.asp?idloja=<IDLojaNum>">Newsletter <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span></a>
-            <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm">Promo&ccedil;&otilde;es <span class="glyphicon glyphicon-tags" aria-hidden="true"></span></a>
-            <a href="/buscaavancada.asp?idloja=<IDLojaNum>">Busca detalhada <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+            <a href="/indique.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Indique a loja</a>
+            <a href="/newsletter.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Newsletter</a>
+            <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Promo&ccedil;&otilde;es</a>
+            <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true"> Busca detalhada</span></a>
           </div>
         </li>
 
@@ -73,20 +73,20 @@ IDLojaNum='<IDLojaNum>';
           <ul class="dropdown-menu">
             <script>
              if(""=="<NomeCliente>")
-              {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'>Login ou Cadastro <span class='glyphicon glyphicon-log-in' aria-hidden='true'></span></a></li>")}
+              {document.write("<li><a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a></li>")}
             </script>
 
-            <li><a href="/account.asp?idloja=<IDLojaNum>">Meus Dados <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+            <li><a href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Meus Dados</a></li>
 
             <li><a href="/account.asp?idloja=<IDLojaNum>&orders=1
-            ">Meus Pedidos <span class="glyphicon glyphicon-gift" aria-hidden="true"></span></a></li>
+            "><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Meus Pedidos</a></li>
 
-            <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Sacola: R$ <ValorCesta> <span class="glyphicon glyphicon-usd" aria-hidden="true"></span></a></li>
+            <li><a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Sacola: R$ <ValorCesta></a></li>
 
-            <li><a href="/addProduto.asp?idloja=<IDLojaNum>">Itens: <QtdCesta> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+            <li><a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a></li>
             <script>
              if(""!="<NomeCliente>")
-              {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'>Sair <span class='glyphicon glyphicon-log-out' aria-hidden='true'></span></a></li>")}
+              {document.write("<li><a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a></li>")}
             </script>
           </ul>
         </li>
