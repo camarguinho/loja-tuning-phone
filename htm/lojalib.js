@@ -55,7 +55,7 @@ var sF$=(function(){
     else if(Price>=20)iMaxParcels=4;
     else if(Price>=15)iMaxParcels=3;
     else if(Price>=10)iMaxParcels=2;
-    else if(Price>=1)iMaxParcels=1;
+    else if(Price>=5)iMaxParcels=1;
 
     iPL++;
     //console.log(ProductID+ " iPL="+ iPL +" Price="+Price +" OriginalPrice="+ OriginalPrice +" Cod="+ Cod);
@@ -111,7 +111,7 @@ var sF$=(function(){
     else if(Price>=20)iMaxParcels=4;
     else if(Price>=15)iMaxParcels=3;
     else if(Price>=10)iMaxParcels=2;
-    else if(Price>=1)iMaxParcels=1;
+    else if(Price>=5)iMaxParcels=1;
     
     var idParcelsProd=fnGetID("idProdParcels"+ProductID);
     var sPrice="";
@@ -702,7 +702,7 @@ function fnMaxInstallmentsGrid(PrecoProd,MaxParcelas){
     else if(PrecoProd>=20)MaxParcelas=4;
     else if(PrecoProd>=15)MaxParcelas=3;
     else if(PrecoProd>=10)MaxParcelas=2;
-    else if(PrecoProd>=1)MaxParcelas=1;
+    else if(PrecoProd>=5)MaxParcelas=1;
     
   var ComSem;
   if(typeof Juros!="undefined"){
