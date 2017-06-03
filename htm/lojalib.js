@@ -50,13 +50,6 @@ var sF$=(function(){
   
   function fnShowPrice(Price,OriginalPrice,Cod,iMaxParcels,ProductID){
 
-    if(Price>=30)iMaxParcels=6;
-    else if(Price>=25)iMaxParcels=5;
-    else if(Price>=20)iMaxParcels=4;
-    else if(Price>=15)iMaxParcels=3;
-    else if(Price>=10)iMaxParcels=2;
-    else if(Price>=1)iMaxParcels=1;
-
     iPL++;
     //console.log(ProductID+ " iPL="+ iPL +" Price="+Price +" OriginalPrice="+ OriginalPrice +" Cod="+ Cod);
     var idPrice=fnGetID("idProdPrice"+ProductID);
@@ -106,12 +99,6 @@ var sF$=(function(){
   }
 
   function fnShowParcels(Price,iMaxParcels,ProductID){
-    if(Price>=30)iMaxParcels=6;
-    else if(Price>=25)iMaxParcels=5;
-    else if(Price>=20)iMaxParcels=4;
-    else if(Price>=15)iMaxParcels=3;
-    else if(Price>=10)iMaxParcels=2;
-    else if(Price>=1)iMaxParcels=1;
     
     var idParcelsProd=fnGetID("idProdParcels"+ProductID);
     var sPrice="";
@@ -696,13 +683,6 @@ function NoCascate(sURL){
 // Grade
 /*Função para mostrar parcelamento*/
 function fnMaxInstallmentsGrid(PrecoProd,MaxParcelas){
-
-  if(PrecoProd>=30)MaxParcelas=6;
-    else if(PrecoProd>=25)MaxParcelas=5;
-    else if(PrecoProd>=20)MaxParcelas=4;
-    else if(PrecoProd>=15)MaxParcelas=3;
-    else if(PrecoProd>=10)MaxParcelas=2;
-    else if(PrecoProd>=1)MaxParcelas=1;
     
   var ComSem;
   if(typeof Juros!="undefined"){
