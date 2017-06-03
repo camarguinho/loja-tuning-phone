@@ -49,6 +49,14 @@ var sF$=(function(){
   var iPL=0;
   
   function fnShowPrice(Price,OriginalPrice,Cod,iMaxParcels,ProductID){
+
+    if(Price>=30)iMaxParcels=6;
+    else if(Price>=25)iMaxParcels=5;
+    else if(Price>=20)iMaxParcels=4;
+    else if(Price>=15)iMaxParcels=3;
+    else if(Price>=10)iMaxParcels=2;
+    else if(Price>=1)iMaxParcels=1;
+
     iPL++;
     //console.log(ProductID+ " iPL="+ iPL +" Price="+Price +" OriginalPrice="+ OriginalPrice +" Cod="+ Cod);
     var idPrice=fnGetID("idProdPrice"+ProductID);
@@ -98,6 +106,13 @@ var sF$=(function(){
   }
 
   function fnShowParcels(Price,iMaxParcels,ProductID){
+    if(Price>=30)iMaxParcels=6;
+    else if(Price>=25)iMaxParcels=5;
+    else if(Price>=20)iMaxParcels=4;
+    else if(Price>=15)iMaxParcels=3;
+    else if(Price>=10)iMaxParcels=2;
+    else if(Price>=1)iMaxParcels=1;
+    
     var idParcelsProd=fnGetID("idProdParcels"+ProductID);
     var sPrice="";
     var sInterest;
