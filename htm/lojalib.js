@@ -49,7 +49,6 @@ var sF$=(function(){
   var iPL=0;
   
   function fnShowPrice(Price,OriginalPrice,Cod,iMaxParcels,ProductID){
-
     if(Price>=30)iMaxParcels=6;
     else if(Price>=25)iMaxParcels=5;
     else if(Price>=20)iMaxParcels=4;
@@ -696,7 +695,6 @@ function NoCascate(sURL){
 // Grade
 /*Função para mostrar parcelamento*/
 function fnMaxInstallmentsGrid(PrecoProd,MaxParcelas){
-
   if(PrecoProd>=30)MaxParcelas=6;
     else if(PrecoProd>=25)MaxParcelas=5;
     else if(PrecoProd>=20)MaxParcelas=4;
