@@ -696,6 +696,14 @@ function NoCascate(sURL){
 // Grade
 /*Função para mostrar parcelamento*/
 function fnMaxInstallmentsGrid(PrecoProd,MaxParcelas){
+
+  if(PrecoProd>=30)MaxParcelas=6;
+    else if(PrecoProd>=25)MaxParcelas=5;
+    else if(PrecoProd>=20)MaxParcelas=4;
+    else if(PrecoProd>=15)MaxParcelas=3;
+    else if(PrecoProd>=10)MaxParcelas=2;
+    else if(PrecoProd>=1)MaxParcelas=1;
+    
   var ComSem;
   if(typeof Juros!="undefined"){
     if(PrecoProd==0||MaxParcelas==1||Juros.length==0)return "";
