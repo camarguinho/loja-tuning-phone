@@ -434,3 +434,8 @@
 .contatos-info a:hover {
   text-decoration: none;
 }
+
+.qrcode {
+  margin: auto;
+  width: 50%
+}
