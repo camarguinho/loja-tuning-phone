@@ -1,3 +1,34 @@
+<!-- PopNews -->
+<script language="JavaScript" src="/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/popnews/jQueryCookie.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/popnews/popnews.js"></script>
+<link type="text/css" rel="stylesheet" href="<BaseLoja>htm/popnews/popnews.css">
+<div id="FullBackground"></div>
+<div id="popupNews" class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12"><br>
+      <div class="msg text-center">Quer receber novidades e promo&ccedil;&otilde;es?</div><br>
+      <form id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
+        <div class="form-group">
+          <input type=hidden name=IDLoja value="<idloja>">
+          <input type=hidden name=Y value="<Y>">
+          <input type=hidden name=FormatoHTML value="True">
+          <input type=hidden name=EnviarAssinante value="Enviar">
+          <input type="text" required name=NomeAssinante placeholder="Seu nome" maxlength="60">
+        </div>
+        <div class="form-group">
+          <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
+        </div>
+        <button type="submit" class="btnSubPop">Cadastrar</button>
+        <button type="submit" class="btnClose">Agora n&atilde;o</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">PopNews();</script>
+<!-- PopNews -->
+
+
 <!-- Begin Home -->
 <div>
   <div class="header text-center">
@@ -347,7 +378,7 @@
 
       <div class="col-sm-12" align="justify">
         <h2 class="font-custom h1-custom">SOBRE</h2><br/>
-        <h4>100% BRASILEIRA, a <strong>tuning-phone&reg;</strong> &eacute; a mais nova loja de acess&oacute;rios para smartphones na internet. Todos os produtos s&atilde;o vendidos atrav&eacute;s da pr&oacute;pria loja, marketplaces e redes sociais pelos melhores pre&ccedil;os e com condi&ccedil;&otilde;es incr&iacute;veis de pagamento. Clique e nos conhe&ccedil;a tamb&eacute;m no Mercado Livre e Facebook!</h4>
+        <h4>100% BRASILEIRA, a <strong>tuning-phone&reg;</strong> &eacute; a mais nova loja de acess&oacute;rios para smartphones na internet. Todos os produtos s&atilde;o vendidos atrav&eacute;s da pr&oacute;pria loja, marketplaces e redes sociais pelos melhores pre&ccedil;os e com condi&ccedil;&otilde;es incr&iacute;veis de pagamento. Visite-nos tamb&eacute;m no Mercado Livre e Facebook!</h4>
       </div>
 
       <div class="col-sm-4 img-rotate"><br/>
