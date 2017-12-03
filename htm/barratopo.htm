@@ -3,12 +3,9 @@
 <script type="text/javascript">
 var IDLoja=""; 
 var IDLojaNum="";
-var NomeCliente="";
-
 
 IDLoja = <IDLoja>;
 IDLojaNum = <IDLojaNum>;
-NomeCliente = <NomeCliente>;
 </script>
 
 <script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/style.css">');</script>
@@ -40,6 +37,7 @@ NomeCliente = <NomeCliente>;
   <br><br>
 
   <script type="text/javascript">
+   var NomeCliente = <NomeCliente>;
    if(""!=NomeCliente)
     {document.write("<a onclick='closeNav()'>Ol&aacute;, <NomeCliente></a>")}
    else
@@ -47,6 +45,7 @@ NomeCliente = <NomeCliente>;
   </script>
 
   <script type="text/javascript">
+   var NomeCliente = <NomeCliente>;
    if(""==NomeCliente)
     {document.write("<a onclick='closeNav()' href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'>&nbsp;</span>Login ou Cadastro </a>")}
   </script>
@@ -65,6 +64,7 @@ NomeCliente = <NomeCliente>;
   <a onclick="closeNav()" href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true">&nbsp;</span> Busca detalhada</a>
               
   <script type="text/javascript">
+   var NomeCliente = <NomeCliente>;
    if(""!=NomeCliente)
     {document.write("<a onclick='closeNav()' href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1'><span class='glyphicon glyphicon-log-out' aria-hidden='true'>&nbsp;</span>Sair</a>")}
   </script>
@@ -125,12 +125,14 @@ NomeCliente = <NomeCliente>;
 
           <li class="dropdown">
             <script type="text/javascript">
+             var NomeCliente = <NomeCliente>;
              if(""!=NomeCliente)
               {document.write("<a class='dropbtn'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
              else
               {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
             </script>
             <div class="dropdown-content linear-grad">
+              var NomeCliente = <NomeCliente>;
               <script type="text/javascript">
                if(""==NomeCliente)
                 {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
@@ -145,6 +147,7 @@ NomeCliente = <NomeCliente>;
 
               <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a>
               <script type="text/javascript">
+               var NomeCliente = <NomeCliente>;
                if(""!=NomeCliente)
                 {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a>")}
               </script>
