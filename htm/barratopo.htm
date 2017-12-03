@@ -34,14 +34,14 @@ NomeCliente=<NomeCliente>;
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <br><br>
 
-  <script>
+  <script type="text/javascript">
    if(""!=NomeCliente)
     {document.write("<a onclick='closeNav()'>Ol&aacute;, "+NomeCliente+"</a>")}
    else
     {document.write("<a onclick='closeNav()'>Ol&aacute;, visitante!</a>")}
   </script>
 
-  <script>
+  <script type="text/javascript">
    if(""==NomeCliente)
     {document.write("<a onclick='closeNav()' href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'>&nbsp;</span>Login ou Cadastro </a>")}
   </script>
@@ -59,7 +59,7 @@ NomeCliente=<NomeCliente>;
 
   <a onclick="closeNav()" href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true">&nbsp;</span> Busca detalhada</a>
               
-  <script>
+  <script type="text/javascript">
    if(""!=NomeCliente)
     {document.write("<a onclick='closeNav()' href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1'><span class='glyphicon glyphicon-log-out' aria-hidden='true'>&nbsp;</span>Sair</a>")}
   </script>
@@ -119,14 +119,14 @@ NomeCliente=<NomeCliente>;
           </li>
 
           <li class="dropdown">
-            <script>
+            <script type="text/javascript">
              if(""!=NomeCliente)
               {document.write("<a class='dropbtn'>OL&Aacute;, "+NomeCliente+" <span class='caret'></span></a>")}
              else
               {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
             </script>
             <div class="dropdown-content linear-grad">
-              <script>
+              <script type="text/javascript">
                if(""==NomeCliente)
                 {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
               </script>
@@ -139,7 +139,7 @@ NomeCliente=<NomeCliente>;
               <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Sacola: R$ <ValorCesta></a>
 
               <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a>
-              <script>
+              <script type="text/javascript">
                if(""!=NomeCliente)
                 {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a>")}
               </script>
@@ -153,7 +153,7 @@ NomeCliente=<NomeCliente>;
 
 <br/><br/><br/>
 
-<script>
+<script type="text/javascript">
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("mypage").style.marginLeft = "250px";
